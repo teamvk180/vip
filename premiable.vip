@@ -1,0 +1,26 @@
+/*
+state ->0 object[] first then request
+state ->1 request[] first then object
+ [object[]]-(state)-[request[]]
+*/
+
+
+
+
+/*
+this is a premiable of vip compiler
+ vip compiler only do one thing check it is a valid 
+         algorithm
+1. read from stream
+2.if(valid raw_object)
+      -->write object to temp
+3.if(valid object)
+       -->write method.object to temp
+4.if(valid raw_signal)
+     -->write signal to temp
+5. if(valid signal)
+     -->write signal to registry
+
+missellanious functions
+------------------------
+*/

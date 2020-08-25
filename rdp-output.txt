@@ -1,0 +1,12 @@
+
+Arithmetic Expression: 13^56
+<parse> 
+<gettoken> 1 <expr> <term> <factor> <number> <digit> 
+<gettoken> 3 
+End parse: success!
+
+Arithmetic Expression: 123&2343
+<parse> 
+<gettoken> 1 <expr> <term> <factor> <number> <digit> 
+<gettoken> 2 
+End parse: success!

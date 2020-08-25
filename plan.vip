@@ -1,0 +1,94 @@
+div {
+    return 354
+}
+student_table: {
+    name: _string_
+    gender: _string_
+    age: _int_
+    height: _int_
+    weight: _int_
+    roll_number : div 
+}
+student_table: (
+    name:{
+        "mark unni"
+        "thomas chakko"
+        "ragu annan"
+    }
+    ,"male",10, 154,45
+)
+
+  student_table : (
+    name: "geetha","female",10, 154,45
+)
+
+student_table: (
+    name: "rajisthah","male",60, 154,45
+)
+  student_table : (
+    name: "kalis","male",30, 154,45
+)
+
+ serve : student_table[0]
+
+a: 30, b : 34
+if : (a <= b, {
+    serve: "a =" + a + " is greater than " + b ="+b
+},
+{
+    //else if is executed
+    serve: "a is less than b"
+})
+
+if (a <= b, {
+    serve: "a =" + a + " is greater than " + b ="+b
+},
+{
+    //else if is executed
+    serve: "a is less than b"
+},
+{
+    serve: "both are fail "
+    //else is executed
+})
+
+while  (a <= b)
+{
+    serve: "true ..."
+    a++
+}
+
+for(i: 0, i<= 10, i++)
+{
+    serve: "done ..."
+    serve : "output"
+    serve : ("this is also serve")
+    serve : (out : "this is also serve")
+}
+
+
+get 
+{
+    return self.a
+}
+
+get : "rahul "
+
+//invalid
+1 *34-45,45/34
+//valid
+serve(1 *34-45)
+a : 45/34
+
+if(a<=b){
+
+}
+else {
+
+}
+
+//01/07/2020
+
+there are two type of signals 1. statemetnt signal & 2. expression signal 
+;how to convert preorder to postfix &
+;how to convert inorder to postfix in shunting yard
