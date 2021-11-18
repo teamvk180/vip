@@ -1,0 +1,37 @@
+using "system.math";
+using "system.cmd";
+
+function name {
+    system.out.println("java ok");
+    while true 
+{
+    if equal(boolean-and(true,true),1)
+    {
+        return "java perfect";
+    }  
+    else if fuzzy-or(false,true) 
+    {
+       // retFunc "perfect yoke";
+    }
+    else 
+    {
+        return "mega ok";
+    }
+}
+}
+
+function retFunc {
+ return 23;        
+}
+class hello-works :  depends system.out; {
+
+    function hello-wrold  {
+
+        system.out.println("hello world");
+    }    
+}
+
+
+assign retFunc() to dare;
+assign "hai vishal " to vishal-krishna;
+assign sub(43,add(23,43)) to def-data;
