@@ -15,10 +15,10 @@ vip is still under development.
  * documentaion
 
 ### example code
-```
- if equal(boolean-or(true,true)) {
+```{lang=bash}
+ if equal boolean-or (true,true) then
   system.out.println("result of boolean or");
-  }
+  endif
  ```
  
  
