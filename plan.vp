@@ -1,35 +1,32 @@
-using "system.math";
-using "system.cmd";
+using "system.math" as math;
+using "system.cmd" as cmd;
 
-function name {
-    system.out.println("java ok");
-    while true 
-{
-    if equal(boolean-and(true,true),1)
-    {
-        return "java perfect";
-    }  
+function name 
+    system.out.println("virtual interface programming language");
+ while self.equals? true or false then
+    if boolean-and(true,true).equals? true then
+        return "vip boolean and function test ok";
     else if fuzzy-or(false,true) 
-    {
        // retFunc "perfect yoke";
-    }
     else 
-    {
         return "mega ok";
-    }
-}
-}
+    endif
+endf
+endwhile
 
-function retFunc {
+function retFunc 
+ if self.type equals "string" then 
+ end if
  return 23;        
-}
-class hello-works :  depends system.out; {
+endf
 
-    function hello-wrold  {
+class hello-works :  depends system.out;
 
-        system.out.println("hello world");
-    }    
-}
+    function hello-wrold  
+
+        system.out.println "hello world".append " of vip";
+    endf   
+end
 
 
 assign retFunc() to dare;
