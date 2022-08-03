@@ -15,8 +15,8 @@ vip is still under development.
  * documentaion
 
 ### example code
-```{lang=bash}
- if equal boolean-or (true,true) then
+```bash
+ if equal boolean-and (true,true) then
   system.out.println("result of boolean or");
   endif
  ```
